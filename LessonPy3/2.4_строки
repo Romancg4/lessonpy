@@ -1,0 +1,55 @@
+#genome = input()
+'''
+genome = "acggtgttat"
+ugennom = genome.upper()
+gua = ugennom.count("G")
+cit = ugennom.count("C")
+print((gua+cit)/len(genome)*100)
+
+s = 'abcdefghijk'
+	 012345678910
+
+	 defg abcdefg defghijk kjihgfedcba ijk 
+'''
+'''
+s = 'abcdefghijk'
+print(s[-1:-10:-2])
+'''
+'''
+s = 'aaaabbсaa'
+new_a = 0
+new_b = 0
+new_c = 0
+for i in s:
+	if i == "a":
+		new_a += 1
+	elif i == "b":
+		new_b += 1
+	elif i == "c":
+		new_c += 1
+
+new_s = a + s.count(a) + b + s.count(b) + c + s.count(c)'''
+
+"""
+s = 'aaaabbсaa'
+l = len(s)
+numa = 0
+numb = 0
+numc = 0
+while s[numa] == "a":
+	numa += 1
+while s[numb] == "b":
+	numb += 1
+print(numa)
+print(numb)
+"""
+
+s = 'aaaabbсaa'
+i = 0
+r = range(len(s))
+for i in s:
+	if i
+
+	while s[i] == s[i+1]:
+		i += 1
+	print(s[0],i+1)

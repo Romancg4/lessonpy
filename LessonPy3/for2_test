@@ -1,0 +1,37 @@
+a = 1
+b = 3
+c = 2
+d = 4
+'''
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+'''
+'''
+if c == d:
+	print(space,c, sep="\t")
+else:
+	for j in range(c,d):
+		print(space,j, sep="\t", end="")
+if a == b:
+	if c == d:
+		print(a,a*c, sep="\t")
+	else:
+		print(a,a*c,a*d, sep="\t")
+else:
+	for i in range(a,b):
+		print(i, i*c, i*d, sep="\t")
+'''	
+#print(space)
+
+
+for g in range (c,d+1):
+    print('\t'+str(g),end='')
+print(end='\n')
+
+for i in range (a,b+1):
+    print(str(i)+'\t',end='')
+    for j in range (c,d+1):
+        print(str(i*j),end='\t')
+    print(end='\n')

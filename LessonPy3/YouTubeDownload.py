@@ -1,10 +1,9 @@
-import pytube
 from pytube import Playlist, YouTube, Stream
 import re
 from pathlib import Path
 
 
-PLAYLIST_URL = 'https://www.youtube.com/watch?v=nYTC4pYN59Y&list=PLpjaNRKtZxPNjKD6jCktOq3EbNjv0K-8k'
+PLAYLIST_URL = 'https://www.youtube.com/playlist?list=PLOoislNmW3OgKnbNAzUuQBqJ-5dNme3gq'
 SAVE_PATH = Path('~/yt').expanduser()
 
 
